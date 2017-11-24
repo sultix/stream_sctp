@@ -3,6 +3,7 @@
 	<name>stream_sctp</name>
 	<comment></comment>
 	<projects>
+		<project>inet</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
