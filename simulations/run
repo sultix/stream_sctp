@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/stream_sctp -n .:../src $*
+# for shared lib, use: opp_run -l ../src/stream_sctp -n .:../src $*
