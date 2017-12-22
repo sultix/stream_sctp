@@ -16,15 +16,14 @@ network StreamSctp
     types:
         channel ppp1line extends DatarateChannel
         {
-            delay = 0ms;
-            datarate = 100 Mbps;
-            per = 0;
+            delay = 5ms;
+            datarate = 1Mbps;
         }
         channel ppp1lineBetweenRouters extends DatarateChannel
         {
-            delay = 10ms;
-            datarate = 100 Mbps;
-            per = 0;
+            delay = 5ms;
+            datarate = 100Mbps;
+            per = 0.01;
         }
     submodules:
         router1: Router {
