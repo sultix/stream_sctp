@@ -23,7 +23,7 @@ network StreamSctp
         {
             delay = 5ms;
             datarate = 100Mbps;
-            per = 0.01;
+            per = 0;
         }
     submodules:
         router1: Router {
