@@ -17,7 +17,7 @@ network StreamSctp
         channel ppp1line extends DatarateChannel
         {
             delay = 5ms;
-            datarate = 1Mbps;
+            datarate = 100Mbps;
         }
         channel ppp1lineBetweenRouters extends DatarateChannel
         {
